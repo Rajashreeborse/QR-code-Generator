@@ -3,6 +3,7 @@ function generateQR() {
     let qrCode = document.getElementById("qrCode");
     let downloadBtn = document.getElementById("downloadBtn");
 
+    
     if (qrText.trim() === "") {
         alert("Please enter text or URL");
         return;
